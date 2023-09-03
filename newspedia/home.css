@@ -1,0 +1,787 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#main{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#article{
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+#article h1{
+    font-size: 50px;
+}
+
+#article span{
+    font-size: 13px;
+    color: gray;
+}
+
+#article textarea{
+    width: 650px;
+    border-radius: 3px;
+    height: 80px;
+}
+
+#articleFooter{
+    /* margin: 20px 25% 20px 25%; */
+    display: flex;
+    height: 170px;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    color: white;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+}
+
+#articleFooter p{
+    font-size: 27px;
+    margin: 3px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#articleFooter2{
+    position: absolute;
+    display: flex;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+    justify-content: center;
+    /* background-color: rgb(231, 242, 244); */
+    padding-top: 4px;
+    padding-right: 4px;
+    margin: -103px 0px 0px 610px;
+    opacity: 0.9;
+}
+
+#articleFooter2 p{
+    color: rgb(43, 43, 43);
+    font-size: 15px;
+    margin: 25px 15px 25px 15px;
+}
+
+#articleFooter2 img{
+    margin-top: 10px ;
+    border-radius: 2px
+}
+
+#article button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    height: 20px;
+    width: 70px;
+    background-color: rgb(196, 82, 76);
+    color: white;
+}
+
+#article p{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: Verdana; */
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+header{
+    box-shadow: 0px 5px 12px -6px rgb(157, 157, 157);
+    font-family: 'Poppins', sans-serif;
+}
+
+.logoDiv{
+    /* margin-left: 12%; */
+
+    width: 200px;
+}
+
+header ul{
+    display: flex;
+    /* margin-left: 14.6%; */
+    /* justify-content: space-between; */
+}
+
+.temp1{
+    padding-left: 15%;
+}
+
+/* #upperHr{
+    box-shadow: 0px 2px 8px 1px;
+    /* height: 30px; */
+    /* color: rgb(130, 130, 130);
+    margin-top: 5px;
+} */ 
+
+.remainingLi{
+    margin-left: 20px;
+}
+header li{
+    /* margin-bottom: 12px; */
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2.5px solid white;
+    transition: 300ms;
+
+}
+
+header li:hover{
+    border-bottom: 2.5px solid rgb(214, 83, 83);
+}
+
+header li a{
+    text-decoration: none;
+    outline: none;
+    color:black
+}
+
+#trending p{
+    margin: 10px 0px 10px -4px;
+    letter-spacing: 0.5px;
+}
+
+#trending span{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px;
+}
+
+#trending marquee{
+    /* margin-bottom: 40px; */
+    width: 940px;
+}
+.img1{
+    height: 400px;
+}
+
+.img2{
+    width: 570px;
+    height: 200px;
+    margin-bottom: 140px;
+    position: absolute;
+}
+
+.img3{
+    width: 283px;
+    height: 196px;
+}
+
+.dontmiss p{
+    background-color: rgb(214, 83, 83);
+    color: white;
+    padding: 6px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.dontmiss ul{
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.dontmiss li{
+    font-size: 15px;
+    font-weight: 590;
+    margin-left: 11.5px;
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 2.5px solid white;
+    transition: 300ms;
+    color: rgb(87, 87, 87);
+}
+
+.dontmiss li:hover{
+    color:  rgb(212, 54, 54);
+}
+
+.dontmiss{
+    border-bottom: 2px solid  rgb(214, 83, 83);
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    float: left;
+}
+
+.socials{
+    /* font-family: 'Poppins', sans-serif; */
+    width: 370px;
+    padding-top: 6px;
+    float: right;
+    /* border-bottom: 2px solid black; */
+}
+
+.socials #yes{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-size: 13px;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socials hr{
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.socials li{
+    list-style: none;
+    margin-top: 15px;
+    /* display: inline-block; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    display: flex;
+}
+
+.socials img{
+    width: 40px;
+}
+
+.socials .count{
+    margin: 10px 50px 4px 30px;
+}
+
+.socials .like1{
+    margin: 6px 20px 6px 130px;
+}       
+
+.socials .like2{
+    margin: 6px 20px 6px 73px;
+}       
+
+.socials .like3{
+    margin: 6px 20px 6px 39px;
+}       
+
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+
+#wrapperrr{
+    /* position: absolute; */
+    height: 400px;
+    width: 500px;
+    background-image: url("https://img.freepik.com/free-photo/woman-model-business-suit-wearing-hat_1303-17693.jpg");
+}
+
+.comWrap{
+    border: 1px solid black;
+    background-size: cover;
+    border-radius: 2px;
+    transition: 300ms;
+}
+
+.comWrap:hover{
+    border: 1px solid black;
+    transform: scale(1.05);
+    z-index: 1;
+    /* box-shadow: 0px 0px 4px 1px  rgb(227, 147, 147); */
+}
+
+.content{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#wrapper2{
+    background-image: url("mcLaren.jpeg");
+    width: 565px;
+    height: 200px;
+    margin-bottom: 140px;
+    position: absolute;
+    margin-left: 504px;
+}
+
+#wrapper3{
+    background-image: url("https://e0.365dm.com/22/12/2048x1152/skysports-erling-haaland-man-city_6010429.jpg");
+    margin-top: 204px;
+    width: 280px;
+    margin-left: 4px;
+    height: 195px;
+}
+
+#wrapper4{
+    background-image: url("https://akm-img-a-in.tosshub.com/businesstoday/images/story/202308/stocsk_0-sixteen_nine.jpg?size=350:196");
+    margin-top: 204px;
+    width: 280px;
+    margin-left: 4px;
+    height: 195px;
+}
+
+#wrapperrr .cardText, #wrapper1 .cardText{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0px 1px 5px black;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    margin-top: 245px;
+}
+
+.cardTitle{
+    background-color: black;
+    width: 60px;
+    font-size: 12px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+#wrapperrr .cardFooter, #wrapper1 .cardFooter{
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 300;
+    color: rgb(255, 242, 242);
+}
+
+#wrapper2 .cardText{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0px 1px 5px black;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    margin-top: 115px;
+}
+
+#wrapper2 .cardTitle{
+    width: 55px;
+}
+
+.cardText3{
+    color: white;
+    font-weight: 600;
+    text-shadow: 0px 1px 5px black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;    
+    margin: 15px;
+    margin-top: 125px;
+}
+
+#missWrapper2{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    height: 410px;
+    margin-top: 10px;
+}
+
+/* #missWrapper2:hover{
+    box-shadow: 1px 1px 7px 1px rgb(58, 58, 58);
+} */
+
+.comWrap a{
+    text-decoration: none;
+    color: white;
+}
+
+#cardList a{
+    text-decoration: none;
+    color: black;
+}
+
+#missWrapper2 .bigImg{
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 300px;
+}
+/* 29 */
+
+#missWrapper2 h3{
+    margin: -5px;
+}
+
+#missWrapper2 p{
+    font-size: 12px;
+    /* font-weight: 100; */
+    color: rgb(47, 47, 47);
+    margin-top: 10px;
+    margin-left: -4px;
+    letter-spacing: 0.5px;
+}
+#textWrapper2{
+    padding: 10px;
+}
+
+#smallCard1{
+    margin-left: 330px;
+    margin-top: -410px;
+}
+
+#smallCard2{
+    margin-left: 330px;
+    margin-top: -310px;
+}
+
+#smallCard3{
+    margin-left: 330px;
+    margin-top: -210px;
+}
+
+#smallCard4{
+    margin-left: 330px;
+    margin-top: -110px;
+}
+
+#smallCard4 h4{
+    font-size: 13px;
+}
+
+.smallCards{
+    /* border: 1px solid black;  */
+    width: 320px;
+    height: 100px;
+    border-radius: 4px;
+    padding-left: 5px;
+    transition: 300ms;
+    padding-right: 4px;
+    display:flexbox;
+    /* justify-content: center; */
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}
+
+.smallCards h4{
+    font-size: 13.6px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 2px;
+    /* margin: 20px -20px 20px 110px */
+    /* float: right; */
+}
+
+.smallCards img{
+    margin: 10px 0px 20px 0px;
+}
+
+.smallCards span{
+    /* margin: -38px 115px 0px 0px;
+    margin: -80px 100px 0px 5px; */
+    font-size: 10px;
+    /* float: right; */
+    color: gray;
+    font-weight: 100;
+}
+
+footer{
+    /* border: 1px solid black;     */
+    box-shadow: 0px 5px 13px 9px rgb(157, 157, 157);
+    /* background-color: rgb(1, 1, 60); */
+    background-image: url("https://i.pinimg.com/originals/bd/30/d1/bd30d1c32ee44e050119e06d57a8bfa6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    height: 420px;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+footer h2{
+    margin: -250px 0px 0px 100px;
+    font-size: 50px;
+}
+
+footer p{
+    margin-left: -280px;
+    font-size: 12px;
+    margin-top: -165px;
+    color: rgb(211, 211, 211);
+}
+
+footer h4{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-left: -265px;
+}
+
+footer input{
+    margin-top: 160px;
+    width: 300px;
+    height: 35px;
+    margin-left: -415px;
+    outline: none;
+    border-radius: 5px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+footer button{
+    width: 150px;
+    height: 35px;
+    font-size: 17px;
+    color: rgb(59, 59, 59);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 160px;
+    margin-left: 10px;
+    opacity: 0.9;
+}
+
+#articleFooter{
+    border: 1px solid black;
+    margin: 250px 0px 0px 700px;
+    border-radius: 3px;
+    opacity: 0.9;
+}
+
+#weather{
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    border:0.1mm solid white;
+    background-image: url("https://i.pinimg.com/originals/bd/30/d1/bd30d1c32ee44e050119e06d57a8bfa6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    left: 0%;
+}
+
+
+#weather button{
+    border: 1px solid rgb(214, 83, 83);
+    background-color: rgb(214, 83, 83);
+    color: white;   
+    font-size: 15px;
+    /* height: 30px; */
+    text-decoration: none;
+    outline: none;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 28px;
+    /* margin: 50px; */
+}
+
+#weather input{
+    width: 400px;
+    font-size: 20px;
+    color: rgb(161, 161, 161);
+    height: 45px;
+    padding: 4px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px rgb(192, 192, 192);
+    text-align: center;
+    margin-top: -60px;
+    opacity: 0.5;
+}
+
+
+#weather h1{
+    margin-top: 8%;
+    font-size: 50px;
+    z-index: -1;
+    margin-bottom: 40px;
+    /* visibility: hidden; */
+    /* color: rgb(0, 0, 0); */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* mix-blend-mode: difference; */
+}
+
+/* @keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+} */
+
+#weather a{
+    /* border: 1px solid black; */
+    background-color: rgb(214, 83, 83);
+    color: white;   
+    font-size: 18px;
+    text-decoration: none;
+    padding: 14px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 28px;
+    /* margin: 50px; */
+}
+
+#remArticles{
+    margin-top: 25px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+}
+
+#remArticles .comWrap{
+    margin: 10px;
+    border-radius: 2px;
+    width: 370px;
+    height: 425px;
+}
+
+#remArticles .comWrap .cardText{
+    padding-bottom: 20px;
+}
+
+#latest{
+    margin: 50px;
+    margin-left: 38.5%;
+    margin-right: 36%;
+    font-size: 60px;
+    /* text-shadow: 2px 2px 4px; */
+    font-family: 'Poppins';
+}
+
+
+.footerSocials{
+    margin: 0% 0% 0% 5%;
+    /* display: flexbox; */
+}
+
+.upper .lower{
+    position:absolute;
+    margin-top: 10px;
+}
+
+#twitter{
+    margin-left: 14px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.upper{
+    /* display: inline-block; */
+    margin-left: 3px;
+}
+
+.rem1:hover, .rem2:hover, .rem3:hover, .rem4:hover, .rem5:hover, .rem6:hover, .rem7:hover, .rem8:hover, .rem9:hover{
+    box-shadow: 0px 0px 6px 3px rgb(106, 106, 106);
+}
+
+.rem1 .cardText{
+    /* background-color: grey; */
+    /* opacity: 0.5; */
+}
+
+.rem1{
+    height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://media.crictracker.com/media/attachments/1690383625521_17kohli1.jpeg");
+}
+
+.rem2{
+        height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://images.folloze.com/image/upload/v1642181649/lxiheaxsi9lwo47txael.jpg");
+}
+
+.rem3{
+        height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://www.reuters.com/resizer/VC1xwTX7Ah_zTxiAnFQtW3WXfyU=/1920x1920/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2DPNRZGUSNO45BHUUTP3MY5KSE.jpg");
+}
+
+.rem4{
+        height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/8/2023_8$largeimg_2056382604.jpg");
+}
+
+.rem5{
+        height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://cars.tatamotors.com/images/dark/m-altroz-home.jpg");
+}
+
+.rem6{
+        height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/867/122/desktop-wallpaper-sahal-abdul-samad-sahal-abdul-samad-instagram-profile-sahal-abdul-samad.jpg");
+}
+
+.rem7{
+        height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://thenewsmill.com/wp-content/uploads/2023/08/after-driest-august-since-1901-imd-predicts-normal-rainfall-across-country-in-september.jpg");
+}
+
+.rem8{
+        height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 4px 1px gray;
+    background-image: url("https://i.pinimg.com/1200x/cb/04/29/cb0429104dc85eacc03f3cfcb0cf7534.jpg");
+}
+
+.rem9{
+        height: 400px;
+        box-shadow: 0px 0px 4px 1px gray;
+    width: 500px;
+    background-image: url("https://static.toiimg.com/thumb/imgsize-23456,msid-100178793,width-600,resizemode-4/100178793.jpg");
+}
+
+#aboutMain, #aboutVideo, #aboutMap{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 16%;
+    text-align: center;
+    margin-right: 16%;
+}
+
+#aboutMain h1{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px grey;
+    /* color: rgb(41, 41, 41); */
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 250px;
+    margin-left: 39%;
+    border-radius: 5px;
+}
+
+h2{
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+td, tr, th{
+    /* border: 4px solid black; */
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: rgb(229, 92, 92);
+}
+
+video{
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+table{
+    margin-left: 40%;
+    border-collapse: collapse;
+    width: 220px;
+}
+
+.smallCards:hover{
+    box-shadow: 1px 1px 7px 1px rgb(58, 58, 58);
+}
+
+.cardListMarq{
+    margin-bottom: 400px;
+}
